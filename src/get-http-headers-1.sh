@@ -1,1 +1,1 @@
-curl -i http://httpbin.org/headers
+curl -i https://httpbin.org/headers
