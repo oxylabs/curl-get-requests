@@ -24,7 +24,7 @@ For more details, check out the [full article](https://oxylabs.io/blog/curl-get-
 If the default request method is GET, you can skip `--request` option and send a GET request as follows:
 
 ```shell
-curl http://httpbin.org/get
+curl https://httpbin.org/get
 ```
 
 ---
@@ -37,14 +37,14 @@ Note that if you use `-d` without `-G`, the request will be a POST request. Also
 Therefore, you must use `-G` along with `-d` if you want to send parameters with a GET request.
 
 ```shell
-curl -G -d "param1=value1" -d "param2=value2" http://httpbin.org/get
+curl -G -d "param1=value1" -d "param2=value2" https://httpbin.org/get
 ```
 
 In the above command, `'param1'` and `'param2'` are the keys, and `'value1'` and `'value2'` are their respective values. The `-d` option can be used multiple times to send various parameters.
 Alternatively, the GET parameters can be included as part of URL:
 
 ```shell
-curl 'http://httpbin.org/get?param1=value1&param2=value2'
+curl 'https://httpbin.org/get?param1=value1&param2=value2'
 ```
 
 ---
@@ -54,7 +54,7 @@ curl 'http://httpbin.org/get?param1=value1&param2=value2'
 HTTP headers allow for exchanging additional information between the client and server during an HTTP request. To get the HTTP headers along with the response body, use the `-i` or `--include` option in the curl GET command:
 
 ```shell
-curl -i http://httpbin.org/headers
+curl -i https://httpbin.org/headers
 ```
 
 This command retrieves the HTTP response headers, such as the server, date, content type, and content length. They provide useful information about the nature and specifics of the response data.
@@ -62,7 +62,7 @@ This command retrieves the HTTP response headers, such as the server, date, cont
 Note that the long parameter for fetching response headers is `--head`:
 
 ```shell
-curl --head http://httpbin.org/headers
+curl --head https://httpbin.org/headers
 ```
 
 ---
@@ -72,7 +72,7 @@ curl --head http://httpbin.org/headers
 JSON has become a standard for data exchange in the modern web development ecosystem. When interacting with [APIs via cURL](https://oxylabs.io/blog/curl-with-api), requesting data in JSON format is crucial. You can instruct cURL to accept the response in JSON format by using the `-H` option followed by `"Accept: application/json"`:
 
 ```shell
-curl -H "Accept: application/json" http://httpbin.org/get
+curl -H "Accept: application/json" https://httpbin.org/get
 ```
 
 Note that sending `"Accept: application/json"` doesn't guarantee that the response will be returned in JSON format. **It highly depends on whether the website supports returning a JSON response.
@@ -86,7 +86,7 @@ In certain scenarios, the URL you're requesting might redirect to another URL. B
 
 
 ```shell
-curl -L 'http://httpbin.org/redirect-to?url=http://httpbin.org/get'
+curl -L 'https://httpbin.org/redirect-to?url=https://httpbin.org/get'
 ```
 
 ---
@@ -97,7 +97,7 @@ Sometimes, you may need to send cookies with your GET request, especially when i
 
 
 ```shell
-curl -b "username=John" http://httpbin.org/cookies
+curl -b "username=John" https://httpbin.org/cookies
 ```
 
 ---
