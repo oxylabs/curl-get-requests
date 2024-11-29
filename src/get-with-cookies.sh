@@ -1,1 +1,1 @@
-curl -b "username=John" http://httpbin.org/cookies
+curl -b "username=John" https://httpbin.org/cookies
