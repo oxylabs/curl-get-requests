@@ -1,1 +1,1 @@
-curl -L 'http://httpbin.org/redirect-to?url=http://httpbin.org/get'
+curl -L 'https://httpbin.org/redirect-to?url=https://httpbin.org/get'
