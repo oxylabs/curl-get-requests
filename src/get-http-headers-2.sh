@@ -1,1 +1,1 @@
-curl --head http://httpbin.org/headers
+curl --head https://httpbin.org/headers
