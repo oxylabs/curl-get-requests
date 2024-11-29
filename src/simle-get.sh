@@ -1,1 +1,1 @@
-curl http://httpbin.org/get
+curl https://httpbin.org/get
