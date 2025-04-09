@@ -2,6 +2,8 @@
 
 [![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=112)
 
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/Pds3gBmKMH)
+
 # How to Send GET Requests With cURL
 
 [cURL](https://oxylabs.io/blog/what-is-curl) is a command-line tool and a library that allows you to transfer data to and from servers using various protocols. Besides extracting public data, which can be HTML, text, JSON, images, etc., cURL can also handle sessions and cookies. Follow this guide to learn how to send and manage cURL GET requests.
