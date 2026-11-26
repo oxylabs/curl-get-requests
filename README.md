@@ -1,6 +1,6 @@
-[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=877&utm_medium=affiliate&groupid=877&utm_content=curl-get-requests-github&transaction_id=102f49063ab94276ae8f116d224b67)
+[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=github&utm_medium=referral&utm_content=curl-get-requests&utm_campaign=banner&groupid=877)
 
-<a href="https://oxylabs.io"><img src="https://img.shields.io/badge/🚀_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
+<a href="https://oxylabs.io/?utm_source=github&utm_medium=referral&utm_content=curl-get-requests&utm_campaign=banner&groupid=877"><img src="https://img.shields.io/badge/🚀_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
 <a href="https://developers.oxylabs.io"><img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation"></a>
 <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/📊_Dashboard-2EA44F?style=for-the-badge" alt="Dashboard"></a>
 <a href="https://discord.gg/Pds3gBmKMH"><img src="https://img.shields.io/badge/💬_Discord-5865F2?style=for-the-badge" alt="Discord"></a>
@@ -8,9 +8,9 @@
 
 # How to Send GET Requests With cURL
 
-[cURL](https://oxylabs.io/blog/what-is-curl) is a command-line tool and a library that allows you to transfer data to and from servers using various protocols. Besides extracting public data, which can be HTML, text, JSON, images, etc., cURL can also handle sessions and cookies. Follow this guide to learn how to send and manage cURL GET requests.
+[cURL](https://oxylabs.io/blog/what-is-curl?utm_source=github&utm_medium=referral&utm_content=curl-get-requests&groupid=877) is a command-line tool and a library that allows you to transfer data to and from servers using various protocols. Besides extracting public data, which can be HTML, text, JSON, images, etc., cURL can also handle sessions and cookies. Follow this guide to learn how to send and manage cURL GET requests.
 
-For more details, check out the [full article](https://oxylabs.io/blog/curl-get-requests) on our website.
+For more details, check out the [full article](https://oxylabs.io/blog/curl-get-requests?utm_source=github&utm_medium=referral&utm_content=curl-get-requests&groupid=877) on our website.
 
 - [Steps of sending GET requests with cURL](#steps-of-sending-get-requests-with-curl)
   * [Step 1 - Simple cURL GET requests](#step-1---simple-curl-get-requests)
@@ -73,7 +73,7 @@ curl --head https://httpbin.org/headers
 
 ### Step 4 - Retrieve Data in JSON Format
 
-JSON has become a standard for data exchange in the modern web development ecosystem. When interacting with [APIs via cURL](https://oxylabs.io/blog/curl-with-api), requesting data in JSON format is crucial. You can instruct cURL to accept the response in JSON format by using the `-H` option followed by `"Accept: application/json"`:
+JSON has become a standard for data exchange in the modern web development ecosystem. When interacting with [APIs via cURL](https://oxylabs.io/blog/curl-with-api?utm_source=github&utm_medium=referral&utm_content=curl-get-requests&groupid=877), requesting data in JSON format is crucial. You can instruct cURL to accept the response in JSON format by using the `-H` option followed by `"Accept: application/json"`:
 
 ```shell
 curl -H "Accept: application/json" https://httpbin.org/get
